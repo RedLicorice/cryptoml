@@ -1,0 +1,6 @@
+base_url: 'https://api.kraken.com'
+api_key:  ''
+endpoints:
+  asset_info: '/0/public/Assets?asset={assets}'  # https://docs.kraken.com/rest/#operation/getAssetInfo
+  # OHLC Returns: [int <time>, string <open>, string <high>, string <low>, string <close>, string <vwap>, string <volume>, int <count>]
+  ohlc_data: '/0/public/OHLC?pair={pair}&since={since}'  # https://docs.kraken.com/rest/#operation/getOHLCData

@@ -1,0 +1,6 @@
+base_url: 'https://community-api.coinmetrics.io/v4'
+api_key:  ''
+endpoints:
+  asset_metadata: '/catalog/assets?assets={assets}&pretty=false'
+  metrics_timeseries: '/timeseries/asset-metrics?assets={assets}&metrics={metrics}&frequency={frequency}&status=all&start_time={begin}&end_time={end}&end_inclusive=true&timezone=Europe/Rome'
+

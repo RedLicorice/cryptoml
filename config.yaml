@@ -1,0 +1,4 @@
+database:
+  sql:
+    uri: !ENV 'sqlite:///feature_store.db'
+    chunksize: 10

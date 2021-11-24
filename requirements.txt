@@ -1,0 +1,13 @@
+typer
+xgboost
+pandas
+statsmodels
+scikit-learn
+scipy
+numpy
+requests
+pyyaml
+git+https://github.com/RedLicorice/pyti.git
+sqlalchemy
+confuse
+python-dotenv
